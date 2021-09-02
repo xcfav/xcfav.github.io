@@ -1,0 +1,61 @@
+* {
+    user-select: none;
+    user-zoom: fixed;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Day {
+    user-select: none;
+    font-size: 64px;
+}
+
+thead {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #000;
+    font-size: 26px;
+}
+
+td {
+    border-radius: 2px;
+    border-right: 2px solid #000;
+}
+
+.L {
+    font-size: 25px;
+    user-select: none;
+}
+
+label {
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #999;
+    outline: none;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+input:checked {
+    border: 8px solid lightsteelblue;
+}
+
+legend {
+    color: white;
+    background-color: #000;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
